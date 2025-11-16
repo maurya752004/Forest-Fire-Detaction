@@ -1,0 +1,7 @@
+path: /home/mry/forest_fire_detection/dataset  # Absolute path to dataset root directory
+train: images/train  # Train images folder
+val: images/val      # Validation images folder
+
+# Classes
+nc: 1  # Number of classes
+names: ['Fire']  # Class names (Non-Fire will be treated as background)
